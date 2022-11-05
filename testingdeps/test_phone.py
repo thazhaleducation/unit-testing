@@ -5,7 +5,7 @@ from testingdeps.battery import Battery
 
 class PhoneTestCase(unittest.TestCase):
   def setUp(self):
-    self.phone = Phone( )
+    self.phone = Phone(Battery())
     return super().setUp()
 
   def test_should_return_true_for_enable_power_save_mode_when_battery_low(self):
