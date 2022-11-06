@@ -7,5 +7,5 @@ class Battery:
   def set_charge(self, charge):
     self.charge_remaining = charge
 
-  def charge_remaining(self):
+  def charge_remaining(self):  # pragma: no cover
     return self.charge_remaining

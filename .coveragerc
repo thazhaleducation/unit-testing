@@ -1,0 +1,5 @@
+[run]
+omit =
+    # omit test files
+    *test_*.py
+    *__init__.py
